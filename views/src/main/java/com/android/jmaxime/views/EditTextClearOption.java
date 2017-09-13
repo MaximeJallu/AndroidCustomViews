@@ -19,6 +19,7 @@ import com.android.jmaxime.views.adapters.DrawableClickListener;
  * {DOCUMENTATION}
  */
 public class EditTextClearOption extends AppCompatEditText {
+
     public EditTextClearOption(Context context) {
         super(context);
     }
