@@ -37,7 +37,7 @@ public class EditTextClearOption extends AppCompatEditText {
         if (!isInEditMode()) {
             Drawable d = null;
             if (text.length() > 0) {
-                //d = DrawableCompat.wrap(ContextCompat.getDrawable(getContext(), R.drawable.ic_close_black_24dp));
+                d = DrawableCompat.wrap(ContextCompat.getDrawable(getContext(), R.drawable.ic_close_black_24dp));
                 initListenerDrawableClick();
             }
             this.setCompoundDrawablesWithIntrinsicBounds(
